@@ -1,0 +1,23 @@
+package com.satishlabs.model;
+
+public class Customer {
+	private int cid;
+	private String cname;
+	private String email;
+	private long phone;
+	private String city;
+	
+	public Customer() {}
+	
+	public Customer(int cid, String cname, String email, long phone, String city) {
+		super();
+		this.cid = cid;
+		this.cname = cname;
+		this.email = email;
+		this.phone = phone;
+		this.city = city;
+	}
+	
+	
+	
+}

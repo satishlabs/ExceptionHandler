@@ -1,0 +1,5 @@
+package com.satishlabs.controller;
+
+public class CustomerController {
+
+}

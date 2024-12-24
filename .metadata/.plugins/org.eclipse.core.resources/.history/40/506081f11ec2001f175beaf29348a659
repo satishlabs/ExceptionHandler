@@ -1,0 +1,20 @@
+package com.satishlabs.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.satishlabs.model.Customer;
+import com.satishlabs.service.CustomerService;
+
+@RestController
+public class CustomerController {
+	@Autowired
+	private CustomerService customerService;
+	
+	@GetMapping("/mycustomer/custid/{custid}")
+	public Customer getCustomerByCid(@PathVariable("custId")int custId) {
+		
+	}
+}
